@@ -1,28 +1,75 @@
-# Compiled Object files
-*.slo
+# Backup files #
+################
+*~
+*.bak
+*.new
+*.old
+*.orig
+*.save
+
+# Compiled Object files #
+#########################
 *.lo
 *.o
 *.obj
+*.slo
 
-# Precompiled Headers
+# Precompiled Headers #
+#######################
 *.gch
 *.pch
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
+# Compiled Dynamic libraries #
+##############################
 *.dll
+*.dylib
+*.so
 
-# Fortran module files
+# Fortran module files #
+########################
 *.mod
 
-# Compiled Static libraries
-*.lai
-*.la
+# Compiled Static libraries #
+#############################
 *.a
+*.la
+*.lai
 *.lib
 
-# Executables
+# Executables #
+###############
+*.app
 *.exe
 *.out
-*.app
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.bz2
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.tbz
+*.tbz2
+*.tgz
+*.xz
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sqlite
+*.sqlite2
+*.sqlite3
+
+# OS generated files #
+######################
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
